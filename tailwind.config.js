@@ -4,10 +4,16 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        inter: "'Inter', sans-serif",
-        lora: "'Lora', serif",
-        mono: "'DM Mono', monospace",
+        poppins: "'Poppins', sans-serif",
       },
+    },
+    fontSize: {
+      xs: "14px",
+      sm: "16px",
+      base: "18px",
+      lg: "20px",
+      xl: "22px",
+      xxl: "28px"
     },
   },
   variants: {
